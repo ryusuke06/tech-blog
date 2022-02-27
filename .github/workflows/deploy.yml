@@ -1,0 +1,48 @@
+name: S3 Upload
+
+# on はイベントトリガー。発火条件がmainブランチにプッシュすること。（実際はプルリクを受け入れたら）
+on:
+  push:
+    branches:
+      - develop
+
+# jobs は実行させる作業を定義。
+# build は作業の実行環境を定義。
+# step は実行する各作業内容を定義。
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          # Fetch Hugo themes (true OR recursive)
+          submodules: true
+          # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          # extended はHugoのextendedバージョンを使うことを意味する。
+          extended: true
+
+      - name: Build Hugo
+        run: |
+          hugo --environment production
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_S3_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
+          aws-region: ap-northeast-1
+
+      - name: Upload file to S3
+        env:
+          S3_UPLOAD_BUCKET: ${{ secrets.S3_UPLOAD_BUCKET }}
+        run: |
+          aws s3 sync --exact-timestamps --delete public $S3_UPLOAD_BUCKET/

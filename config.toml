@@ -1,0 +1,5 @@
+baseURL = 'http://team-kss.net/'
+languageCode = 'en-us'
+title = 'hugohugo-tech-blog'
+theme = 'hugo-uno'
+hasCJKLanguage = 'true'
