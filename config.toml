@@ -1,0 +1,120 @@
+# ------------------------------
+# hugo config
+# ------------------------------
+
+title = "TechCloud Works"
+baseURL = "https://team-kss.net"
+defaultContentLanguage = "ja"
+theme = "hugo-theme-stack"
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+paginate = 5
+
+[author]
+name = "ryusuke oyama"
+email = ""
+link = ""
+
+[build]
+noJSConfigInAssets = true
+
+[languages.ja]
+weight = 1
+languageCode = "ja"
+languageName = "Ja"
+hasCJKLanguage = true
+summaryLength = 100
+
+[markup.highlight]
+style = "dracula"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+params.icon = "home"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+params.icon = "user"
+weight = 2
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+params.icon = "search"
+weight = 3
+
+[[menu.main]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/ryusuke06/"
+params.icon = "github"
+weight = 10
+
+[[menu.main]]
+identifier = "twitter"
+name = "Twitter"
+url = "https://twitter.com/ryuuu_ch/"
+params.icon = "twitter"
+weight = 11
+
+[permalinks]
+post = "/posts/:filename"
+page = "/:filename"
+
+# ------------------------------
+# theme config
+# ------------------------------
+
+[params]
+mainSections = ["post"]
+
+[params.article]
+readingTime = true
+
+[params.article.license]
+enabled = true
+default = "Licensed under CC BY 4.0"
+
+[params.colorScheme]
+toggle = true
+default = "auto"
+
+[params.comments]
+enabled = false
+
+[params.dateFormat]
+published = "2006-01-02"
+lastUpdated = "2006-01-02 15:04 MST"
+
+[params.defaultImage.opengraph]
+enabled = false
+
+[params.footer]
+since = 2022
+
+[params.opengraph.twitter]
+site = "ryuuu_ch"
+card = "summary_large_image"
+
+[params.sidebar]
+subtitle = "Ryusuke's blog"
+
+[params.sidebar.avatar]
+src = "/img/avator.png"
+
+[params.widgets]
+enabled = ["search", "archives", "tag-cloud"]
+
+[params.widgets.archives]
+limit = 10
+path = "archives"
+
+[params.widgets.tagCloud]
+limit = 30
