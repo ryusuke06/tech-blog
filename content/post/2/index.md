@@ -21,7 +21,7 @@ image = "image.png"
 * S3+CloudFrontの静的サイトホスティング
 * Hugoで静的サイトを作成
 
-<img src="image.png" width="600">
+![kousei](./image.png)
 
 
 ---
