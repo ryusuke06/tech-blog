@@ -1,10 +1,10 @@
 +++
-title = "Hello, world!"
-date  = 2022-02-28
+title = "このサイトの構成について"
+date  = 2022-03-04
 tags  = ["s3","CloudFront","github","Lambda"]
 categories = ["Tech"]
 aliases = ["blog/2/"]
-image = "image.jpg"
+image = "image.png"
 +++
 
 # やってみた1回目
@@ -21,7 +21,7 @@ image = "image.jpg"
 * S3+CloudFrontの静的サイトホスティング
 * Hugoで静的サイトを作成
 
-<img src="./image.png" width="600">
+<img src="image.png" width="600">
 
 
 ---
@@ -144,6 +144,8 @@ exports.handler = (event, context, callback) => {
 [[AWS] CloudFrontでBASIC認証を行う – Lambda@Edge + Node.js](https://blog.katsubemakito.net/aws/cloudfront-basicauth)
 
 ※こちらのサイトは信頼ポリシーの追加に関して参考にさせていただきました。
+
+[関数を使用してエッジでカスタマイズ](https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/edge-functions.html)
 
 ---
 
