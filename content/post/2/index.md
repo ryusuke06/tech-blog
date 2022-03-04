@@ -3,7 +3,6 @@ title = "このサイトの構成について"
 date  = 2022-03-04
 tags  = ["s3","CloudFront","github","Lambda"]
 categories = ["Tech"]
-aliases = ["blog/2/"]
 image = "image.png"
 +++
 
@@ -21,7 +20,7 @@ image = "image.png"
 * S3+CloudFrontの静的サイトホスティング
 * Hugoで静的サイトを作成
 
-![kousei](./image.png)
+![構成図](image.png)
 
 
 ---
