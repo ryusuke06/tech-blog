@@ -36,7 +36,21 @@ layout = "about"
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![](https://img.shields.io/static/v1?label=&message=Java&color=007396&style=for-the-badge&logo=java&logoColor=white)
+![](https://img.shields.io/static/v1?label=&message=Ruby&color=CC342D&style=for-the-badge&logo=ruby&logoColor=white)
+![](https://img.shields.io/static/v1?label=&message=PHP&color=777BB4&style=for-the-badge&logo=php&logoColor=black)
+✨
+
+✨
+![](https://img.shields.io/static/v1?label=&message=RubyonRails&color=CC0000&style=for-the-badge&logo=rubyonrails&logoColor=white)
+![](https://img.shields.io/static/v1?label=&message=Vue.js&color=4FC08D&style=for-the-badge&logo=vue.js&logoColor=black)
+![](https://img.shields.io/static/v1?label=&message=Laravel&color=FF2D20&style=for-the-badge&logo=laravel&logoColor=black)
+✨
+
+✨
+![](https://img.shields.io/static/v1?label=&message=XAMPP&color=FB7A24&style=for-the-badge&logo=xampp&logoColor=black)
 ![](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![](https://img.shields.io/static/v1?label=&message=Docker&color=2496ED&style=for-the-badge&logo=docker&logoColor=black)
 ✨
 
 ---
