@@ -50,6 +50,8 @@ layout = "about"
 ✨
 ![](https://img.shields.io/static/v1?label=&message=XAMPP&color=FB7A24&style=for-the-badge&logo=xampp&logoColor=black)
 ![](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![](https://img.shields.io/static/v1?label=&message=Github&color=181717&style=for-the-badge&logo=github&logoColor=white)
+![](https://img.shields.io/static/v1?label=&message=Homebrew&color=FBB040&style=for-the-badge&logo=homebrew&logoColor=black)
 ![](https://img.shields.io/static/v1?label=&message=Docker&color=2496ED&style=for-the-badge&logo=docker&logoColor=black)
 ✨
 
