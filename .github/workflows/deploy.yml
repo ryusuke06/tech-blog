@@ -4,7 +4,7 @@ name: S3 Upload
 on:
   push:
     branches:
-      - develop
+      - main
 
 # jobs は実行させる作業を定義。
 # build は作業の実行環境を定義。
