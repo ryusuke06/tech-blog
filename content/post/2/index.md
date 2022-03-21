@@ -156,7 +156,7 @@ exports.handler = (event, context, callback) => {
 
 この場で多くのブログ著書様方に深くお礼申し上げます。
 
-<img src="./osewani.jpg">
+![](osewani.jpg)
 
 ---
 
