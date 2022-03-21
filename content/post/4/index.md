@@ -1,5 +1,5 @@
 +++
-title = "ツイッターbotでブログ投稿をお知らせしてくれるようにしてみた"
+title = "人生3回目のハッカソンは開発の楽しさを学べた"
 date  = 2022-03-22
 tags  = ["Hackathon","Ruby on Rails"]
 categories = ["Event"]
